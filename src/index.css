@@ -5,9 +5,26 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-color: palegoldenrod; */
+}
+
+html, body {
+  width: 100%;
+  height: 92vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#root,.App,.App > div{
+  height: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
